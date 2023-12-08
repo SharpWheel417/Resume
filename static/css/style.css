@@ -1,0 +1,232 @@
+html{
+	font-family: 'Roboto Mono', monospace;
+
+	width: auto;
+	height: auto;
+
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+body{
+    display: flex;
+    flex-direction: row;
+
+	width: auto;
+	height: auto;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+
+	width: 100%;
+}
+
+.grey{
+	filter: grayscale(100%);
+}
+
+.col{
+	display: flex;
+	flex-direction: column;
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+}
+
+.center{
+	text-align: center;
+
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.white{
+	color: white;
+}
+
+
+
+.left_side{
+	width: 20%;
+	height: auto;
+
+	background-color: gray;
+}
+
+.contacts{
+	margin-top: 1rem;
+	word-wrap: break-word;
+}
+
+.contact{
+	margin: 10px;;
+}
+
+.contact a {
+	text-decoration: none;
+	font-size: 0,5rem;
+
+	margin-left: 10px;
+}
+
+.skills{
+	justify-content: center;
+	
+	color: white;
+}
+
+.skills_spis li{
+	display: block;
+
+	margin:10px;
+}
+
+.right_side{
+	height: auto;
+	width: 60%;
+}
+
+.sites{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.sites a{
+	text-decoration: none;
+	color: white;
+
+}
+
+
+
+
+.main_logo{
+	margin-left: 10%;
+}
+
+.main_logo{ 
+	font-size: 50px;
+	font-weight: 100;
+}
+
+.main_logo h1{ 
+	font-weight: 600;
+}
+
+.main_logo h5{ 
+	font-weight: 100;
+}
+
+.main_logo p{
+	font-size: 20px;
+}
+
+.job{
+	font-size: 50px;
+	font-weight: 100;
+}
+
+
+.expirience{
+	width: 100%;
+	height: max-content;
+	margin-left: 10%;
+}
+
+.expirience_logo{
+	font-size: 40px;
+	font-weight: 100;
+}
+
+
+.bold{
+	font-weight: 600;
+}
+
+
+
+
+.calculate{
+	width: 90%;
+	height: 20%;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (max-width: 763px) {
+	.main {
+		flex-direction: column;
+	}
+
+	picture{
+		display: none;
+	}
+
+	.left_side {
+		width: 100%;
+	}
+	.right_side{
+		width: 100%;
+	}
+
+	.calculate{
+		display: none;
+	}	
+
+	.main_logo{
+		margin-left: 3%;
+	}
+
+	.expirience{
+		margin-left: 3%;
+	}
+	.sites{
+		margin-bottom: 20px;
+	}
+}
+
+
+@media (max-width: 500px) {
+	.main {
+		flex-direction: column;
+	}
+
+	picture{
+		display: block;
+	
+	}
+
+	.left_side {
+		width: 100%;
+	}
+	.right_side{
+		width: 100%;
+	}
+
+	.calculate{
+		display: none;
+	}	
+
+	.main_logo{
+		margin-left: 3%;
+	}
+
+	.expirience{
+		margin-left: 3%;
+	}
+
+	.sites{
+		margin-bottom: 20px;
+	}
+
+  }
