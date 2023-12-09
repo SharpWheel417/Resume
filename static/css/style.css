@@ -159,15 +159,28 @@ hr{
 	font-weight: 600;
 }
 
-
-
-
 .calculate{
 	width: 90%;
 	height: 20%;
 
 	margin-left: auto;
 	margin-right: auto;
+}
+
+ /* SLIDER */
+
+ .slideshow {
+	max-width: 100%;
+	margin: auto;
+  }
+.slide {
+	display: none;
+  }
+
+.slide_image {
+	width: 90%;
+	height: auto !important;
+	object-fit: cover;
 }
 
 @media (max-width: 763px) {
@@ -199,6 +212,15 @@ hr{
 	}
 	.sites{
 		margin-bottom: 20px;
+	}
+	.slideshow{
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.slide_image {
+		width: 90%;
+		height: auto !important;
 	}
 }
 
@@ -234,6 +256,15 @@ hr{
 
 	.sites{
 		margin-bottom: 20px;
+	}
+	.slideshow{
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.slide_image {
+		width: 90%;
+		height: auto !important;
 	}
 
   }
